@@ -1,5 +1,8 @@
 import React from 'react'
 
+/***** Spotify *****/
+import { loginUrl } from '../spotify'
+
 /***** CSS *****/
 import './Login.css'
 
@@ -11,7 +14,7 @@ const Login = () => {
                 alt=""
             />
             {/** Login with spotify button */}
-            <a href>LOGIN WITH SPOTIFY</a>
+            <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
         </div>
     )
 }
